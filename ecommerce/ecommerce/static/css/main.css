@@ -1,0 +1,290 @@
+.Welcome {
+	padding: 50px 100px;
+	margin-top: 80px;
+	background-color: #ffffff;
+	box-shadow: 0 0px 20px  rgba(0,0,0,0.2);
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.Welcome h1{
+	color:#333;
+}
+.Welcome .home-btn{
+	color:#333;
+	margin-top: 10px;
+	padding: 10px 30px;
+	color:#fff;
+	background-color: #013f7e;
+	box-shadow: #fff;
+}
+#About{
+	padding-top: 100px;
+	padding-bottom:10px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+#About .col-md-6{
+	padding:20px 10px;
+	
+}
+#About .col-md-6 img{
+	width: 400px;
+	height: 400px;
+	border-radius: 30px;
+	
+}
+#About h3{
+	margin:20px auto;
+}
+#About a:hover{
+	text-decoration: none;
+	color:#013f7e;
+}
+
+#Services .col-md-6 img{
+	width: 80px;
+	height: 80px;
+}
+
+#Services{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+#Services .col-md-6{
+	padding: 20px;
+}
+
+#Services .col-md-6 h4{
+	padding: 5px;
+}
+
+#Services .col-md-6 p{
+	padding: 5px;
+	text-align: justify;
+}
+#Features{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:#fff;
+	border-radius: 25px;
+	background-color: #4834d4;
+background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+}
+
+
+#Features .col-md-6 img{
+	width: 450px;
+	height: 450px;
+	margin:25px;
+	border-radius: 30px;
+}
+
+{}
+#Features .col-md-6{
+	padding:20px ;
+}
+
+.Feature-box{
+	height: 120px;
+
+}
+.Feature-box .feature-left{
+	height: 120px;
+	width:20%;
+	float: left;
+}
+.Feature-box .feature-left .fa{
+	padding-top: 13px;
+	font-size: 60px;
+	background-color: #130f40;
+background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+
+}
+
+.Feature-box .feature-right{
+	width:80%;
+	float: left;
+	padding:50px;
+	margin-right: 20px;
+
+}
+.Feature-box .feature-right h4{
+	padding-top: 50px;
+	padding-left:15px;
+	text-align:left;
+	color: white;
+	margin-top:-800px;
+	margin-right: 20px;
+
+}
+.Feature-box .feature-right p{
+	padding-left:15px;
+	text-align:left;
+	color:#fff;
+}
+
+#Testi{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#Testi .col-md-4{
+	padding:10px 30px;
+}
+
+#Testi img{
+	width: 85px;
+	height: 85px;
+	margin-left: 10px;
+	margin-top: -25px;
+	border:5px solid #ffffff;
+	margin-bottom:30px;
+	border-radius: 50%;
+}
+
+.review{
+	font-size: 20px;
+	padding:10px 10px 10px 30px;
+	border-radius: 20px;
+	border-width: 3.5px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.review .fa-twitter{
+	color: #013f7e;
+}
+
+#Testi span{
+	color: #013f7e;
+	font-weight: 60px;
+	font-size: 22px;
+}
+#Testi h1{
+	margin-bottom: 15px;
+	color:;
+}
+#Testi h5{
+	margin-bottom: 15px;
+}
+
+#Subscribe{
+	padding:50px 20px;
+	background-color: #013f7e;
+	position: relative;
+	box-shadow: 0px 0x 20px rgba(0,0,0,0.2);
+	color: #ffffff;
+	border-radius: 35px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.Subscribe .text-center{
+	padding:25px;
+}
+
+.Subscribe h3{
+	padding:25px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+} 
+.Subscribe h4{
+	padding:10px;
+	margin-bottom: 20px;
+}
+.Subscribe .input-group{
+	border-radius: 30px;
+	background:#ffffff;
+	max-width: 500px;
+	margin:10px auto;
+	padding:5px;
+}
+.Subscribe .form-control{
+	border:none;
+	background:transparent;
+}
+
+.Subscribe .form-control:focus{
+	box-shadow: none;
+	background:transparent;
+}
+#Subscribe .input-group-append{
+	background-image: linear-gradient(to right,#1c0365,#5c8bef);
+	border-radius: 30px;
+	margin:0px;
+}
+#Subscribe .input-group-text{
+	border:none;
+	background:transparent;
+	color:#ffffff;
+}
+
+
+
+#Subscribe .input-group-text-btn{
+	border:none;
+	background:transparent;
+	color:#ffffff;
+	margin:0;
+
+}
+#Footer{
+	margin-top: 80px;
+	padding:100px;
+	background-color: #efefef;
+	color:#013f7e;
+}
+#Footer h4{
+	font-size: 22px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-weight: 5px;
+
+}
+
+#Footer p{
+	font-size: 17px;
+	text-align:left;
+}
+#social{
+	padding-left: 15px;
+}
+#fb{
+	padding-left: 3px;
+}	
+}
+#Footer a{
+	font-size: 17px;
+	text-align:left;
+	text-decoration:none;
+}
+#Footer a:hover{
+	text-decoration:none;
+}
+#Footer .fa{
+	padding-right: 20px;
+	font-size: 16px;
+}
+
+#Footer .Trade{
+	text-align: center;
+	font-size: 17px;
+	margin-top: 25px;
+
+}
+#Copyright{
+	font-size: 17px;
+	margin-left: 40px;
+	color:#013f7e; 
+	font-style: italic;
+	text-align:center;
+}
+#Copyright .fa-heart-o{
+	padding-right: 0px;
+	font-size: 18px;
+	color:red;
+	text-align: center;
+
+}
