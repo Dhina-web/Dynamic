@@ -1,0 +1,156 @@
+{% extends 'store/main.html'%}
+{% load static %}
+{% block content%}
+<html>
+<head>
+	<title>Wood Enchanters.com/home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<section id="Welcome">
+	<div class="Container">
+		<div class="Welcome text-center wow fadeInRight delay-12s">
+			<h1>Present your portrait as a gift</h1>
+			<p>A picture is worth a thousand words, and a photo engraving is worth a thousand more! Engrave your photos and memories on rich mahogany or natural pine for the perfect way to commemorate the past.</p>
+			<button type="Submit" class="btn home-btn"><a style="text-decoration: none; color: #fff;" href="#About"> Get Started</a></button>
+		</div>
+	</div>
+</section>
+
+</head>
+<!-- About us -->
+
+<section id="About">
+	<div class="Container">
+		<div class="row">
+			<div class="col-md-6 text-center">
+				<img src="../images/imageone.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-6 text-justify wow slideInUp delay-4s">
+				<h3>3D portrait of a couple</h3><br>
+				<p>Here's a personalized wooden photo frame that freezes the most special moment of life- the wedding day. The wooden photo frame with the stand can be personalized with the desired image of the couples, the perfect gift for your dear ones starting the new journey.</p>
+				<br>
+				<p><a href="{% url 'store' %}" target="_blank">click here to view products in details</a></p>
+			</div>
+			<div class="col-md-6 text-justify wow slideInUp delay-4s">
+				<h3>Customized Crafts</h3><br>
+				<p>Love isn't written in stones this time, it is displayed on a Personalized Heart-shaped Wooden Photo Frame. Engraved with a cherished picture, this will be the forever keepsake of the promise made to your beloved. Keep it close on the bedside table, a memorable moment to glance at every morning</p>
+				<br>
+				<p><a href="{% url 'store' %}" target="_blank">click here to views product in details</a></p>
+			</div>
+			<div class="col-md-6 text-center">
+				<img src="../images/imagetwo.jpg" class="img-fluid fadein delay-6s">
+			</div>
+		</div>
+	</div>
+	
+</section>
+<!-- Services-->
+<section id="Services">
+	<div class="Container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="../images/laser1.png">
+				<h4>Laser Beam Technology</h4>
+				<p>We are using cutting edge technology to produce our product customer satisfaction is our goal</p>
+			</div>
+			<div class="col-md-6">
+				<img src="../images/3dcube.jpg">
+				<h4>3D engraving Technology</h4>
+				<p>We are using cutting edge technology to produce our product customer satisfaction is our goal</p>
+			</div>
+		</div>
+	</div>
+	
+</section>
+<section id="Testi">
+	<div class="Container">
+		<h1 class="text-center">Meet our Customers</h1><br>
+		<h5 class="text-center">Cherish and relive a moment that deserves to be celebrated time and again.We are here to make it more professional for you and loved ones. Please take a moment to read our customer's opinion</h5><br>
+		<div class="row">
+			<div class="col-md-4 wow fadeInLeft delay-4s">
+				<p class="review">"A beautiful token of love and affection that will stay imprinted in your partner's mind." I ordered this Wooden Photo Frame with a memory that i keep reminiscing about our best moments. I was perfect to the core.<br> <i class="fa fa-twitter"></i><span>@username</span></p>
+				<img src="../images/imagethree.jpg">
+				
+			</div>
+			<div class="col-md-4 wow fadeInUp delay-4s">
+				<p class="review">"It was my friend's marriage anniversary and I was looking for a perfect gift for the couple. Here's an elegant personalized wooden photo frame of size 8in x 5in x 0.5in kept on a black wooden frame. I saw this website. So Ordered it! Really liked the style. I would like to gift more elegant surpirses for my best friends."<br> <i class="fa fa-twitter"></i><span>@username</span></p>
+				<img src="../images/imagethree.jpg">
+				
+			</div>
+			<div class="col-md-4 wow fadeInRight delay-4s">
+				<p class="review">"A very romantic wooden photo frame that can be personalized with the desired picture. Perfect gift for a special occasion. We got our very own best moment on a piece of wood.Had an amazing feeling really."<br> <i class="fa fa-twitter"></i><span>@username</span></p>
+				<img src="../images/imagethree.jpg">
+				
+			</div>
+		</div>
+	</div>
+	
+</section>
+<section id="Subscribe">
+	<div class="Container">
+		<div class="Subscribe text-center wow fadeInDown delay-4s">
+			<h3 style="color:#fff;text-align:center;">Get your Own Customized Templates</h3>
+			<h4 style="color:#fff;text-align:center;">Submit your email ID to recieve the sample templates which best suits for you</h4>
+			<div class="input-group">
+				<input type="email" class="form-control" placeholder="Email Id">
+				<div class="input-group-append">
+					<button type="Submit" class="input-group-text-btn"><a style="text-decoration: none;color:#fff;"href="{% static 'mailto:woodenchanters@gmail.com' %}" target="_blank">Get Now</a></button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+<section id="Footer" style="padding-right: 0px;padding-left: 0px; margin-right: 0px;margin-left: 0px;">
+	<div class="Container">
+		<div class="row">
+			<div class="col-md-4">
+				<h4>We Wood Enchanters</h4>
+				<h5>Our ultimate purpose is to transform your beautiful memories into 3d potraits. You can feel the quality and pricison of our job! You might love it!! </h5>
+				
+				</div>
+		<div class="col-md-5">
+				<h4>Get in touch</h4>
+				<p><i class="fa fa-phone-square"></i> +91-9876543210</p>
+				<p><i class="fa fa-home"></i> some street Naranapuram</p>
+				<p><i class="fa fa-map"></i>Sivakasi</p>
+				<p><i class="fa fa-map-signs"></i>626189</p>
+				<p><i class="fa fa-envelope"></i><a style ="color: #013f7e;"href="woodenchanters@gmail.com" target="_blank">woodenchanters@gmail.com</a></p>
+		</div>
+		<div class="col-md-3" id="social">
+				<h4>Follow us on</h4>
+				<p><i class="fa fa-facebook"><a style ="color: #013f7e;"href="https://www.facebook.com/woodenchanters" target="_blank" id="fb"></i>Facebook</a></p>
+				<p><i class="fa fa-youtube-play"><a style ="color: #013f7e;"href="https://www.youtube.com/user/rram05mohan" target="_blank"></i>Youtube</a></p>
+				<p><i class="fa fa-instagram"><a style ="color: #013f7e;" href="https://www.instagram.com/wood_enchanters/" target="_blank"></i>Instagram</a></p>
+				<p><i class="fa fa-whatsapp"><a style ="color: #013f7e;"href="https://api.whatsapp.com/send?phone=917010740286" target="_blank"></i>Whatsapp</a></p>
+				<p><i class="fa fa-linkedin"><a style ="color: #013f7e;"href="https://www.linkedin.com/company/wood-enchanters" target="_blank"></i>Linkedin</a></p>
+		</div>
+	</div>
+	<P class="Trade">Copyright &copy; 2020 Wood Enchanters &trade;</P>
+	 <hr>
+	 <p id="Copyright">Made with <i class="fa fa-heart-o"></i> By Wood Enchanters</p>
+
+</section>
+</div>
+</section>
+
+<script src="smooth/smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+<script src="smooth/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+	<!-- BOOSTRAP LINKS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css">
+
+</body>
+</html>
+{% endblock content%}
